@@ -12,4 +12,4 @@ Usecases :-
 - Enduser can apply transformations on the input data stream so that the data visualized can be extracted for reports
 
 
-For initial development/testing, we will be working on stock market anaylysis 
+For initial development/testing, we will be working on stock market analysis 
