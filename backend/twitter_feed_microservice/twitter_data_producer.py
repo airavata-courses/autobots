@@ -1,0 +1,31 @@
+from tweepy.streaming import StreamListener
+from tweepy import OAuthHandler
+from tweepy import Stream
+from kafka import SimpleProducer, KafkaClient
+import configparser
+
+configParser = configparser.RawConfigParser()   
+configFilePath = r'config.txt'
+configParser.read(configFilePath)
+
+access_token = configParser.get('twitter-token-config', 'access_token')
+access_token_secret =  configParser.get('twitter-token-config', 'access_token_secret')
+consumer_key = configParser.get('twitter-token-config', 'consumer_key')
+consumer_secret = configParser.get('twitter-token-config', 'consumer_secret')
+
+print(access_token, access_token_secret, consumer_key, consumer_secret)
+class StdOutListener(StreamListener):
+    def on_data(self, data):
+        producer.send_messages("trump", data.encode('utf-8'))
+        print (data)
+        return True
+    def on_error(self, status):
+        print (status)
+
+kafka = KafkaClient("localhost:9092")
+producer = SimpleProducer(kafka)
+l = StdOutListener()
+auth = OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+stream = Stream(auth, l)
+stream.filter(track="trump")

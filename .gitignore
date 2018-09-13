@@ -1,2 +1,3 @@
 /node_modules/
 /package-lock.json
+/backend/twitter_feed_microservice/config.txt
