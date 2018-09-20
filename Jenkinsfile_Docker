@@ -11,8 +11,8 @@ def purgeImages() {
 
 node{
     stage('Permissions') {
-          sh 'sudo usermod -aG docker ${USER}'
 	   sh 'chown $USER:$USER -R .'
+	   sh 'docker ps'
 	}
     stage('Pull') {
         checkout scm
