@@ -13,14 +13,17 @@ pipeline {
         
     stage('Install dependencies') {
       steps {
-        sh 'cd ui'
-        sh 'npm install'
+	      dir('ui') {
+	           sh 'npm install'  
+     	  }
       }
     }
      
     stage('Test') {
       steps {
-         sh 'npm test'
+	     dir('ui') {
+             sh 'npm test'
+		 }
       }
     }      
   }
