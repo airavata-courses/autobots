@@ -91,6 +91,7 @@ app.get('/line',function(req,res){
 // });
 
 consumer.on('message',function(message){
+	//console.log(message.value);
 	io.emit('dataSet',message.value);
 });
 

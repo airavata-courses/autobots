@@ -69,13 +69,15 @@
    		var host="http://localhost:5000"
     //Socket IO communications
     var socket = io.connect(host);
+    count=1;
     socket.on('dataSet', function (data) {
         // console.log(data)
         data=JSON.parse(data)
         // console.log(data.x,data.y)
-		console.log(data.lang);
-        series.addPoint({x:data.x,y:data.lang});
-        
+	//console.log(data.user);
+	//series.addPoint(data.user.statuses_count);
+        series.addPoint({x:count,y:data.user.id});
+        count=count+1;
     });
    	</script>
  	<div id="header">
