@@ -14,12 +14,12 @@ pipeline {
       }
     }
      
-    stage('Test') {
+    /*stage('Test') {
       steps {
 	     dir('ui') {
              sh 'npm test'
 		 }
       }
-    }      
+    } */     
   }
 }
