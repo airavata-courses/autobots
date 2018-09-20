@@ -37,6 +37,7 @@ pipeline {
 	}
   }
 
+}
 def imagePrune(){
     try {
  	    sh 'docker stop $(docker ps -aq)'        
@@ -44,5 +45,4 @@ def imagePrune(){
  		sh 'docker rmi $(docker images -q)'
  
     } catch(error){}
-}
 }
