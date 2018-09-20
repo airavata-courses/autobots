@@ -1,3 +1,11 @@
+def imagePrune(){
+    try {
+ 	    sh 'docker stop $(docker ps -aq)'        
+ 		sh 'docker rm $(docker ps -aq)'
+ 		sh 'docker rmi $(docker images -q)'
+ 
+    } catch(error){}
+}
 pipeline {
   agent any
     
@@ -38,11 +46,11 @@ pipeline {
   }
 
 }
-def imagePrune(){
-    try {
- 	    sh 'docker stop $(docker ps -aq)'        
- 		sh 'docker rm $(docker ps -aq)'
- 		sh 'docker rmi $(docker images -q)'
- 
-    } catch(error){}
-}
+
+
+
+
+
+
+
+
