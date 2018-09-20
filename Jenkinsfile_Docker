@@ -19,7 +19,7 @@ node{
         sh 'docker-compose -f docker-compose.yml up -d'
 	}
     stage('Test') {
-        sh 'docker-compose exec broker kafka-topics --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic trump'	
+        sh 'docker-compose exec -T broker kafka-topics --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic trump'	
 	}
 	stage('Prune') {
 	   purgeImages()
