@@ -66,18 +66,28 @@
    		// $(document).ready(function(){
    		// 	startClientServer();
    		// })
-   		var host="http://localhost:5000"
+	var host=window.location.hostname
+	if(host.search("localhost")!=-1){
+	host="http://localhost:5000"
+	}
+	console.log(host)
+   	//var host="http://localhost:5000"
     //Socket IO communications
     var socket = io.connect(host);
     count=1;
     socket.on('dataSet', function (data) {
-        // console.log(data)
-        data=JSON.parse(data)
-        // console.log(data.x,data.y)
+	//console.log(data)
+	 var dataX=Number(data.split(',')[0].split(':')[1]);
+	    var dataY=Number(data.split(',')[1].split(':')[1].split('}')[0]);
+	//console.log(dataX,dataY)
+        //data=JSON.parse(data)
+	//data=JSON.parse(String(data))
+	//console.log(data)
+        //console.log(data.x,data.y)
 	//console.log(data.user);
 	//series.addPoint(data.user.statuses_count);
-        series.addPoint({x:count,y:data.user.id});
-        count=count+1;
+	series.addPoint({x:dataX,y:dataY});
+        //count=count+1;
     });
    	</script>
  	<div id="header">

@@ -7,7 +7,6 @@ import time
 configParser = configparser.RawConfigParser()   
 configFilePath = r'config.txt'
 configParser.read(configFilePath)
-
 access_token = configParser.get('twitter-token-config', 'access_token')
 access_token_secret =  configParser.get('twitter-token-config', 'access_token_secret')
 consumer_key = configParser.get('twitter-token-config', 'consumer_key')
@@ -15,10 +14,15 @@ consumer_secret = configParser.get('twitter-token-config', 'consumer_secret')
 
 print(access_token, access_token_secret, consumer_key, consumer_secret)
 class StdOutListener(StreamListener):
+    def __init__(self):
+        self.counter=1;
     def on_data(self, data):
-        producer.send_messages("trump", data.encode('utf-8'))
+        #print(len(data))
+        jsonData={"x":self.counter,"y":len(data)}
+        producer.send_messages("trump", str(jsonData).encode('utf-8'))
         #print (data)
-        time.sleep(2)
+        time.sleep(1)
+        self.counter+=1
         return True
     def on_error(self, status):
         print (status)
