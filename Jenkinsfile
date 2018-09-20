@@ -6,10 +6,10 @@ def imagePrune(){
  
     } catch(error){}
 }
-pipeline {
-  agent any
+node {
+  //agent any
     
-  tools {nodejs "node"}
+  //tools {nodejs "node"}
     
   stages {
         
