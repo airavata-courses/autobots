@@ -13,6 +13,7 @@ pipeline {
         
     stage('Install dependencies') {
       steps {
+        sh 'cd ui'
         sh 'npm install'
       }
     }
