@@ -13,7 +13,9 @@ pipeline {
         
     stage('Install dependencies') {
       steps {
+         sh 'ls'
 	      dir('ui') {
+               sh 'ls'
 	           sh 'npm install'  
      	  }
       }
