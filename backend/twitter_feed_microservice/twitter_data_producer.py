@@ -3,7 +3,7 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from kafka import SimpleProducer, KafkaClient
 import configparser
-
+import time
 configParser = configparser.RawConfigParser()   
 configFilePath = r'config.txt'
 configParser.read(configFilePath)
@@ -17,7 +17,8 @@ print(access_token, access_token_secret, consumer_key, consumer_secret)
 class StdOutListener(StreamListener):
     def on_data(self, data):
         producer.send_messages("trump", data.encode('utf-8'))
-        print (data)
+        #print (data)
+        time.sleep(2)
         return True
     def on_error(self, status):
         print (status)
