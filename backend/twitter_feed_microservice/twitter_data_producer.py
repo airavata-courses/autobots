@@ -12,7 +12,8 @@ access_token_secret =  configParser.get('twitter-token-config', 'access_token_se
 consumer_key = configParser.get('twitter-token-config', 'consumer_key')
 consumer_secret = configParser.get('twitter-token-config', 'consumer_secret')
 
-print(access_token, access_token_secret, consumer_key, consumer_secret)
+#print(access_token, access_token_secret, consumer_key, consumer_secret)
+print("Starting the kafka producer")
 class StdOutListener(StreamListener):
     def __init__(self):
         self.counter=1;
