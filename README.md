@@ -7,4 +7,4 @@ See [Project Wiki](https://github.com/airavata-courses/autobots/wiki) for more d
 
 For installation and build details, refer to [Installation](https://github.com/airavata-courses/autobots/wiki/Installation)
 
-For details regarding CI refer to [Jenkins CI](https://github.com/airavata-courses/autobots/wiki/CI---CD)
+For details regarding CI refer to [Jenkins CI](https://github.com/airavata-courses/autobots/wiki/CI---CD-on-Jetsream)
