@@ -22,7 +22,7 @@ class StdOutListener(StreamListener):
         jsonData={"x":self.counter,"y":len(data)}
         producer.send_messages("trump", str(jsonData).encode('utf-8'))
         #print (data)
-        time.sleep(1)
+        #time.sleep(1)
         self.counter+=1
         return True
     def on_error(self, status):
