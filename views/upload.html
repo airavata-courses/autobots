@@ -11,6 +11,7 @@
     <script src="tus-js-client/dist/tus.js"></script>
 
 </head>
+
 <body>
 <div class="container">
     <h1>File upload Demo</h1>
@@ -28,7 +29,7 @@
                 </label>
             </td>
             <td>
-                <input type="text" id="endpoint" name="endpoint"  value="http://127.0.0.1:8000/uploads" readonly>
+                <input type="text" id="endpoint" name="endpoint" readonly>
             </td>
         </tr>
         <tr>
@@ -79,8 +80,17 @@
         Succesful uploads will be listed here
     </p>
 
+
 </div>
 </body>
+<script>
+    var server_host="http://"+window.location.hostname+":8000/uploads"
+    if(server_host.search("localhost")!=-1){
+        server_host="http://localhost:8000/uploads"
+    }
+    document.getElementById("endpoint").value =server_host;
+</script>
+
 <script src="javascripts/upload.js"></script>
 
 </html>

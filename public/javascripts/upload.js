@@ -60,6 +60,10 @@ function startUpload() {
     }
 
     toggleBtn.textContent = "pause upload";
+    var server_host="http://"+window.location.hostname+":8000"
+    if(server_host.search("localhost")!=-1){
+        server_host="http://localhost:8000"
+    }
 
     var options = {
         endpoint: endpoint,
