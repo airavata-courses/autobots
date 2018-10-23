@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>tus-js-client demo</title>
+    <title>File upload demo</title>
     <script src="jquery/dist/jquery.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
 
@@ -13,14 +13,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>tus-js-client demo</h1>
-
-    <p>
-        For a prettier demo please go to the
-        <a href="http://tus.io/demo.html">tus.io</a> website.
-        This demo is just here to aid developers.
-    </p>
-
+    <h1>File upload Demo</h1>
     <div class="alert alert-warining hidden" id="support-alert">
         <b>Warning!</b> Your browser does not seem to support the features necessary to run tus-js-client. The buttons below may work but probably will fail silently.
     </div>
@@ -35,7 +28,7 @@
                 </label>
             </td>
             <td>
-                <input type="text" id="endpoint" name="endpoint" value="http://localhost:8000">
+                <input type="text" id="endpoint" name="endpoint"  value="http://127.0.0.1:8000/uploads" readonly>
             </td>
         </tr>
         <tr>
@@ -83,7 +76,7 @@
     <hr />
     <h3>Uploads</h3>
     <p id="upload-list">
-        Succesful uploads will be listed here. Try one!
+        Succesful uploads will be listed here
     </p>
 
 </div>
