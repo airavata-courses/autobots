@@ -5,11 +5,14 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "forever start app.js",
+    "stop": "forever stopall"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "tus-node-server": "^0.3.2"
+    "tus-node-server": "^0.3.2",
+    "forever": "^0.15.3"
   }
 }
