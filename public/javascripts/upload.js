@@ -62,16 +62,18 @@ function startUpload() {
     toggleBtn.textContent = "pause upload";
     var server_host="http://"+window.location.hostname+":8000";
     if(server_host.search("localhost")!=-1){
-        server_host="http://localhost:8000/uploads"
+        server_host=endpoint
     }
     else{
-        server_host="http://129.114.16.133:8000/uploads";
+        server_host=endpoint
     }
 
     var options = {
-        endpoint: server_host,
+        endpoint: endpoint,
         resume  : !resumeCheckbox.checked,
         chunkSize: chunkSize,
+        filename:file.name,
+        filetype:file.type,
         retryDelays: [0, 1000, 3000, 5000],
         metadata: {
             filename: file.name,
@@ -98,7 +100,9 @@ function startUpload() {
         onSuccess: function () {
             var anchor = document.createElement("a");
             anchor.textContent = "Download " + upload.file.name + " (" + upload.file.size + " bytes)";
-            anchor.href = upload.url;
+            anchor.href =upload.url.replace("uploads","downloads")+"?fileName="+upload.file.name;
+            console.log(anchor.href);
+            console.log(anchor.href);
             anchor.className = "btn btn-success";
             uploadList.appendChild(anchor);
 
