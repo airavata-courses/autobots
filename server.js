@@ -6,6 +6,7 @@ var path = require('path');
 var mime = require('mime');
 var fs = require('fs');
 const server = new tus.Server();
+var os = require("os");
 
 server.datastore = new tus.FileStore({
     path: '/files'
@@ -33,12 +34,15 @@ app.use('/check',function(req,res){
 
 app.use('/uploads', uploadApp);
 app.use('/downloads',function (req,res) {
+    // res.send("Download file:"+req.query.fileName);
     console.log("Inside the downlaod api");
     var fileName=req.fileName;
     var file=__dirname+'/files/'+req.url.split('?')[0].split('/')[2];
-    res.setHeader('Content-disposition', 'attachment; filename=' + req.query.fileName);
-    var filestream = fs.createReadStream(file);
-    filestream.pipe(res);
+    // res.setHeader('Content-disposition', 'attachment; filename=' + req.query.fileName);
+    // var filestream = fs.createReadStream(file);
+    // filestream.pipe(res);
+    var host=os.hostname();
+    res.send("Download file path:"+host+":"+file);
 });
 
 
