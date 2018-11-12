@@ -11,7 +11,8 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("CI/CD/Dockerfile_client")
+        app = docker.build("tus-client:latest", "Dockerfile_client")
+        
     }
 
     stage('Test image') {
@@ -28,7 +29,7 @@ node {
          * Pushing multiple tags is cheap, as all the layers are reused. */
         docker.withRegistry('https://149.165.169.230:5000') {
             app.push("${env.BUILD_NUMBER}")
-            app.push("1.0")
+            app.push("latest")
         }
     }
 }
