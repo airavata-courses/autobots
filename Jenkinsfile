@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("tus-client:latest", "./Dockerfile_client")
+        app = docker.build("tus-client:latest", "-f Dockerfile_client .")
         
     }
 
