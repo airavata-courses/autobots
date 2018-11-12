@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: tus-client-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: tus-client-service
+    spec:
+      containers:
+      - name: tus-client
+        image: js-169-230.jetstream-cloud.org:5000/tus-client:1.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000

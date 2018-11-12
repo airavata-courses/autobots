@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: tus-server-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: tus-server-service
+    spec:
+      containers:
+      - name: tus-server
+        image: js-169-230.jetstream-cloud.org:5000/tus-server:1.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8000
