@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "forever ./bin/www",
-    "stop": "forever stopall"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
