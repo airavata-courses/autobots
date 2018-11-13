@@ -1,9 +1,9 @@
-from node:8
+FROM node:8
 
 WORKDIR /usr/src/app
 RUN git clone -b tus-server https://github.com/naveenkumarmarri/autobots /app/
 RUN cp -R /app/* /usr/src/app/
 
 RUN npm install
-EXPOSE 8000
+# EXPOSE 8000
 CMD [ "npm", "start" ]

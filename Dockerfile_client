@@ -1,4 +1,4 @@
-from node:8
+FROM node:8
 
 WORKDIR /usr/src/app
 RUN git clone -b tus-client https://github.com/naveenkumarmarri/autobots /app/
