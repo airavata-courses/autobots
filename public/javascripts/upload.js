@@ -68,7 +68,7 @@ function startUpload() {
     else{
         server_host=endpoint
     }
-
+    console.log(endpoint);
     var options = {
         endpoint: endpoint,
         resume  : !resumeCheckbox.checked,
@@ -102,7 +102,7 @@ function startUpload() {
             var anchor = document.createElement("a");
             anchor.textContent = "Download " + upload.file.name + " (" + upload.file.size + " bytes)";
             anchor.href =upload.url.replace("uploads","downloads")+"?fileName="+upload.file.name;
-            console.log(anchor.href);
+            // console.log(anchor.href);
             anchor.className = "btn btn-success";
             uploadList.appendChild(anchor);
 
