@@ -15,3 +15,11 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
+        volumeMounts:
+        - mountPath: /usr/src/app/files/
+          name: persist
+      volumes:
+      - name: persist
+        hostPath:
+          path: /data
+          type: Directory
