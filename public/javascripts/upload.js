@@ -60,7 +60,7 @@ function startUpload() {
     }
 
     toggleBtn.textContent = "pause upload";
-    var server_host="http://"+window.location.hostname+":8000";
+    // var server_host="http://"+window.location.hostname+":8000";
     console.log(server_host);
     if(server_host.search("localhost")!=-1){
         server_host=endpoint
@@ -70,7 +70,8 @@ function startUpload() {
     }
     console.log(endpoint);
     var options = {
-        endpoint: endpoint,
+        "Access-Control-Allow-Origin":'*',
+		endpoint: endpoint,
         resume  : !resumeCheckbox.checked,
         chunkSize: chunkSize,
         filename:file.name,
@@ -80,6 +81,7 @@ function startUpload() {
             filename: file.name,
             filetype: file.type
         },
+        
         onError : function (error) {
             if (error.originalRequest) {
                 if (window.confirm("Failed because: " + error + "\nDo you want to retry?")) {
@@ -111,6 +113,7 @@ function startUpload() {
     };
 
     upload = new tus.Upload(file, options);
+    // console.log(upload.get_url())
     upload.start();
     uploadIsRunning = true;
 }
@@ -120,4 +123,7 @@ function reset() {
     toggleBtn.textContent = "start upload";
     upload = null;
     uploadIsRunning = false;
+}
+window.onload = function() {
+    reset()
 }
