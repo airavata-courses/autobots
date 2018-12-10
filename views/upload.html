@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>File upload demo</title>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet" />
+    <link href="stylesheets/upload.css" rel="stylesheet" media="screen" />
+    <script src="tus-js-client/dist/tus.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <h1>File upload Demo</h1>
+    <div class="alert alert-warining hidden" id="support-alert">
+        <b>Warning!</b> Your browser does not seem to support the features necessary to run tus-js-client. The buttons below may work but probably will fail silently.
+    </div>
+
+    <br />
+
+    <table>
+        <tr>
+            <td>
+                <label for="endpoint">
+                    Upload endpoint:
+                </label>
+            </td>
+            <td>
+                <input type="text" id="endpoint" name="endpoint" readonly>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="chunksize">
+                    Chunk size (bytes):
+                </label>
+            </td>
+            <td>
+                <input type="number" id="chunksize" name="chunksize">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="resume">
+                    Perform full upload:
+                    <br />
+                    <small>(even if we could resume)</small>
+                </label>
+            </td>
+            <td>
+                <input type="checkbox" id="resume">
+            </td>
+        </tr>
+    </table>
+
+    <br />
+
+    <input type="file">
+
+    <br />
+    <br />
+
+    <div class="row">
+        <div class="span8">
+            <div class="progress progress-striped progress-success">
+                <div class="bar" style="width: 0%;"></div>
+            </div>
+        </div>
+        <div class="span4">
+            <button class="btn stop" id="toggle-btn">start upload</button>
+        </div>
+    </div>
+
+    <hr />
+    <h3>Uploads</h3>
+    <p id="upload-list">
+        Succesful uploads will be listed here
+    </p>
+
+
+</div>
+</body>
+<script>
+    var server_host="http://"+window.location.hostname+":8000/uploads"
+    if(server_host.search("localhost")!=-1){
+        server_host="http://localhost:8000/uploads"
+    }
+    else{
+        server_host="http://129.114.16.189:30008/uploads"
+    }
+    document.getElementById("endpoint").value =server_host;
+</script>
+
+<script src="javascripts/upload.js"></script>
+
+</html>
