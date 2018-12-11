@@ -160,6 +160,8 @@ if __name__ == '__main__':
 				fail_counter=Counter(0)
 				procs = [Process(target=tester, args=(pass_counter,fail_counter,file_list[file_counter]))]
 				file_counter+=1
+			else:
+				break
 		for p in procs: p.start()
 		for p in procs: p.join()
 	file_write.close()
