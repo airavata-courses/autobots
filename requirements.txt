@@ -1,6 +1,12 @@
 certifi==2018.10.15
-chardet==3.0.4
+config==0.4.0
+future==0.17.1
 idna==2.7
+multiprocessing==2.6.2.1
+pycurl==7.43.0.2
 requests==2.20.1
+six==1.12.0
+tusclient==0.2.1
+tuspy==0.2.3
 urllib3==1.24.1
-multiprocessing 2.6.2.1
+

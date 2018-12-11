@@ -1,0 +1,13 @@
+
+File_name:/Users/gowthamkannan/Desktop/Clustering/dataWrapper/__init__.py,Size:0,Status:Success, Time:1.12308597565
+File_name:/Users/gowthamkannan/Desktop/Clustering/h_clustering/__pycache__/dbScan.cpython-36.pyc,Size:3111,Status:Success, Time:2.12312602997
+File_name:/Users/gowthamkannan/Desktop/Clustering/.git/objects/04/f342bda74058275f7d3af7269411bcc92d3f40,Size:129,Status:Success, Time:1.44329595566
+File_name:/Users/gowthamkannan/Desktop/Clustering/.git/objects/d6/6deea2aac65ebcf397433436f9a7fd445da029,Size:283,Status:Success, Time:0.401505947113
+File_name:/Users/gowthamkannan/Desktop/Clustering/.git/objects/16/de891ae04ba68b61131e2497d771bb87479b81,Size:69,Status:Success, Time:0.472301006317
+File_name:/Users/gowthamkannan/Desktop/Clustering/.git/objects/9a/a6830e7f687f6d3f952a82ed8e89b8102616de,Size:165,Status:Success, Time:1.39548611641
+File_name:/Users/gowthamkannan/Desktop/Clustering/.git/objects/a1/f914bdb06ec9f959bb0177dba375568045bbf3,Size:143,Status:Success, Time:3.81519389153
+File_name:/Users/gowthamkannan/Desktop/Clustering/.git/objects/70/9c0c56d62c94d9a1ff0a2e629ae8c028ea5c61,Size:1372,Status:Success, Time:1.53602004051
+File_name:/Users/gowthamkannan/Desktop/Clustering/.git/hooks/pre-commit.sample,Size:1638,Status:Success, Time:1.16657185555
+File_name:/Users/gowthamkannan/Desktop/Clustering/.git/refs/remotes/host/master,Size:41,Status:Success, Time:0.449694156647
+File_name:/Users/gowthamkannan/Desktop/Clustering/.idea/misc.xml,Size:313,Status:Success, Time:0.669603824615
+File_name:/Users/gowthamkannan/Desktop/Clustering/.idea/inspectionProfiles/profiles_settings.xml,Size:156,Status:Success, Time:0.50701212883
