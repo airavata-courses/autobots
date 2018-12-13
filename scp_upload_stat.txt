@@ -1,0 +1,51 @@
+
+File_name:/Users/gowthamkannan/Desktop/Books/[Elisabeth_Freeman,_Eric_Freeman,_Bert_Bates,_Kath(b-ok.org).pdf, Size:56286578, Status:Success, Time:21.9938800335
+File_name:/Users/gowthamkannan/Desktop/Books/[Allen_B._Downey]_Think_Stats(b-ok.org).pdf, Size:8333849, Status:Success, Time:4.31553792953
+File_name:/Users/gowthamkannan/Desktop/Books/[Tom_Hope,_Yehezkel_S._Resheff,_and_Itay_Lieder]_L(b-ok.org).pdf, Size:6240037, Status:Success, Time:3.30697989464
+File_name:/Users/gowthamkannan/Desktop/Books/[Talbot_Mundy]_The_nine_unknown(b-ok.org).pdf, Size:1428409, Status:Success, Time:1.52212285995
+File_name:/Users/gowthamkannan/Desktop/Books/[Kathy_Sierra,_Bert_Bates,_Bert_Bates]_Head_First_(b-ok.org).pdf, Size:35615105, Status:Success, Time:16.557890892
+File_name:/Users/gowthamkannan/Desktop/Books/.DS_Store, Size:18436, Status:Success, Time:0.955046892166
+File_name:/Users/gowthamkannan/Desktop/Books/.[Gayle_Laakmann]_Cracking_the_Coding_Interview,_Fo(b-ok.org).pdf.icloud, Size:216, Status:Success, Time:1.00989508629
+File_name:/Users/gowthamkannan/Desktop/Books/[Douglas_Crockford]_JavaScript_The_Good_Parts(b-ok.org).pdf, Size:1556228, Status:Success, Time:1.6302959919
+File_name:/Users/gowthamkannan/Desktop/Books/main.pdf, Size:501896, Status:Success, Time:1.27371287346
+File_name:/Users/gowthamkannan/Desktop/Books/[]_Design_Patterns_-_Elements_Of_Reusable(b-ok.xyz).pdf, Size:3608198, Status:Success, Time:2.43458008766
+File_name:/Users/gowthamkannan/Desktop/Books/[Richard_Bronson,_Govindasami_Naadimuthu]_Schaum's(b-ok.org).pdf, Size:29780050, Status:Success, Time:12.184869051
+File_name:/Users/gowthamkannan/Desktop/Books/[Rachel_Schutt,_Cathy_O'Neil]_Doing_Data_Science_(b-ok.org).pdf, Size:28388192, Status:Success, Time:11.8106110096
+File_name:/Users/gowthamkannan/Desktop/Books/[Wayne_L.(Wayne_L._Winston)_Winston]_Operations_Re(b-ok.org).pdf, Size:10549778, Status:Success, Time:5.14389300346
+File_name:/Users/gowthamkannan/Desktop/Books/[Ganguly,_Kuntal]_Learning_generative_adversarial_(b-ok.xyz).pdf, Size:11249777, Status:Success, Time:5.23367500305
+File_name:/Users/gowthamkannan/Desktop/Books/Algorithm_Design.pdf, Size:44858555, Status:Success, Time:17.868696928
+File_name:/Users/gowthamkannan/Desktop/Books/[Antonio_Gulli,_Sujit_Pal]_Deep_Learning_With_Kera(b-ok.org).pdf, Size:21093606, Status:Success, Time:8.78243207932
+File_name:/Users/gowthamkannan/Desktop/Books/[Sheldon_M._Ross]_Introduction_to_probability_and_(b-ok.org).pdf, Size:2014563, Status:Success, Time:1.81800913811
+File_name:/Users/gowthamkannan/Desktop/Books/[Gilbert_Strang]_Introduction_to_Linear_Algebra(b-ok.org).pdf, Size:35947968, Status:Success, Time:14.770182848
+File_name:/Users/gowthamkannan/Desktop/Books/[MacKay_D.J.C.]_Information_Theory,_Inference_and_(b-ok.org).pdf, Size:11464312, Status:Success, Time:5.36816215515
+File_name:/Users/gowthamkannan/Desktop/Books/[Douglas_B._West]_Introduction_to_Graph_Theory_(2n(b-ok.org).pdf, Size:65693709, Status:Success, Time:25.6357550621
+File_name:/Users/gowthamkannan/Desktop/Books/[Ian_Goodfellow,_Yoshua_Bengio,_Aaron_Courville]_D(b-ok.xyz).pdf, Size:23718763, Status:Success, Time:9.85412693024
+File_name:/Users/gowthamkannan/Desktop/Books/[Gamma_E.,_Helm_R.,_Johnson_R.,_Vlissides_J.M.]_De(b-ok.xyz).pdf, Size:40459896, Status:Success, Time:17.2907230854
+File_name:/Users/gowthamkannan/Desktop/Books/[Richard_J._Lipton,_Kenneth_W._Regan]_Quantum_Algo(b-ok.xyz).pdf, Size:1502002, Status:Success, Time:1.65772390366
+File_name:/Users/gowthamkannan/Desktop/Books/[Scott_Oaks]_Java_Performance_The_Definitive_Guid(b-ok.cc).pdf, Size:13317201, Status:Success, Time:5.98054504395
+File_name:/Users/gowthamkannan/Desktop/Books/parameterized-algorithms.pdf, Size:6539555, Status:Success, Time:3.5777361393
+File_name:/Users/gowthamkannan/Desktop/Books/[Allen_B._Downey]_Think_Stats_Probablity_and_Stat(b-ok.org).pdf, Size:1553847, Status:Success, Time:1.59659290314
+File_name:/Users/gowthamkannan/Desktop/Books/.[Larry_Wasserman]_All_of_Statistics_A_Concise_Cou(b-ok.org).pdf.icloud, Size:215, Status:Success, Time:1.03610110283
+File_name:/Users/gowthamkannan/Desktop/Books/matrixcookbook.pdf, Size:692685, Status:Success, Time:1.3691868782
+File_name:/Users/gowthamkannan/Desktop/Books/[Pedro_Domingos]_The_Master_Algorithm_How_the_Que(b-ok.org).pdf, Size:14881911, Status:Success, Time:6.81742191315
+File_name:/Users/gowthamkannan/Desktop/Books/.[E._T._Jaynes]_Probability_Theory_The_Logic_Of_Sci(b-ok.org).pdf.icloud, Size:216, Status:Success, Time:1.12286305428
+File_name:/Users/gowthamkannan/Desktop/Books/Computer Vision/[Boguslaw_Cyganek,_J._Paul_Siebert]_An_Introductio(b-ok.org).pdf, Size:10503986, Status:Success, Time:5.0554959774
+File_name:/Users/gowthamkannan/Desktop/Books/Computer Vision/.DS_Store, Size:6148, Status:Success, Time:1.09017205238
+File_name:/Users/gowthamkannan/Desktop/Books/Computer Vision/[Richard_Hartley]_Multiple_View_Geometry_in_Comput(b-ok.org).pdf, Size:105763979, Status:Success, Time:40.9128069878
+File_name:/Users/gowthamkannan/Desktop/Books/Computer Vision/[E._R._Davies]_Computer_and_Machine_Vision._Theory(b-ok.org).pdf, Size:33026221, Status:Success, Time:13.4601991177
+File_name:/Users/gowthamkannan/Desktop/Books/Computer Vision/[Joseph_N._Wilson,_Gerhard_X._Ritter]_Handbook_of_(b-ok.org).pdf, Size:12339092, Status:Success, Time:5.64532399178
+File_name:/Users/gowthamkannan/Desktop/Books/Computer Vision/[Christopher_M._Bishop]_Pattern_Recognition_and_Ma(b-ok.org).pdf, Size:4732138, Status:Success, Time:3.06972384453
+File_name:/Users/gowthamkannan/Desktop/Books/Computational Linguistics/.DS_Store, Size:6148, Status:Success, Time:1.01427578926
+File_name:/Users/gowthamkannan/Desktop/Books/Computational Linguistics/nnlp.pdf, Size:718508, Status:Success, Time:1.35443401337
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[Kevin_P._Murphy]_Machine_Learning_A_Probabilisti(b-ok.org).pdf, Size:26942670, Status:Success, Time:11.2454340458
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[I.H._Witten,_E._Frank_and_M._A._Hall]_Data_Mining(b-ok.org).pdf, Size:7260023, Status:Success, Time:3.82686185837
+File_name:/Users/gowthamkannan/Desktop/Books/ML/.DS_Store, Size:6148, Status:Success, Time:1.00427985191
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[John_W._Tukey]_Exploratory_Data_Analysis(b-ok.org).pdf, Size:19099986, Status:Success, Time:8.25017285347
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[Daphne_Koller,_Nir_Friedman]_Probabilistic_Graphi(b-ok.xyz).pdf, Size:8851737, Status:Success, Time:4.39801001549
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[Carl_Anderson]_Creating_a_Data-Driven_Organizatio(b-ok.org).pdf, Size:11380406, Status:Success, Time:5.31232500076
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[Toby_Segaran]_Programming_Collective_Intelligence(b-ok.org).pdf, Size:3462755, Status:Success, Time:2.55210089684
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[Aurélien_Géron]_Hands-On_Machine_Learning_with_(b-ok.org).pdf, Size:41658472, Status:Success, Time:18.5962791443
+File_name:/Users/gowthamkannan/Desktop/Books/ML/ESLII.pdf, Size:21644344, Status:Success, Time:9.07912492752
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[Sarah_Boslaugh,_Paul_Andrew_Watters]_Statistics_i(b-ok.org).pdf, Size:4685521, Status:Success, Time:2.89571213722
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[Richard_O._Duda,_Peter_E._Hart,_David_G._Stork]_P(b-ok.org).pdf, Size:11823047, Status:Success, Time:5.8685529232
+File_name:/Users/gowthamkannan/Desktop/Books/ML/[Jeffrey_D_Ullman]_Mining_of_Massive_DataSets(b-ok.org).pdf, Size:2076440, Status:Success, Time:1.91955494881
